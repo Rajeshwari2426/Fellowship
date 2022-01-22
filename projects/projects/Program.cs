@@ -10,8 +10,10 @@ namespace projects
     {
         static void Main(string[] args)
         {
-            FibonocciSeries series = new FibonocciSeries();
-            series.FindFibonocciSeries();
+            // FibonocciSeries series = new FibonocciSeries();
+            // series.FindFibonocciSeries();
+            ReverseNumbers.FindReverseNumber();
+            Console.ReadLine();
         }
     }
 }
