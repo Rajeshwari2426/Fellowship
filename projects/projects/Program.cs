@@ -12,7 +12,9 @@ namespace projects
         {
             // FibonocciSeries series = new FibonocciSeries();
             // series.FindFibonocciSeries();
-            ReverseNumbers.FindReverseNumber();
+            // ReverseNumbers.FindReverseNumber();
+            //Console.ReadLine();
+            SwapNumbers.SwappingNumbers();
             Console.ReadLine();
         }
     }
