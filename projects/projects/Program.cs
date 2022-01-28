@@ -14,9 +14,11 @@ namespace projects
             // series.FindFibonocciSeries();
             // ReverseNumbers.FindReverseNumber();
             //Console.ReadLine();
-            SwapNumbers.SwappingNumbers();
+            /*SwapNumbers.SwappingNumbers();
             CoinFlip flipCoin = new CoinFlip();
-            flipCoin.FlipCoin();
+            flipCoin.FlipCoin();*/
+            LeapYear leapYear  = new LeapYear();
+            leapYear.LeapYearCheck();
             Console.ReadLine();
         }
     }
