@@ -55,6 +55,7 @@
     <Compile Include="QuotientAndRemainder.cs" />
     <Compile Include="ReverseNumbers.cs" />
     <Compile Include="SwapNumbers.cs" />
+    <Compile Include="VowelConsonant.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

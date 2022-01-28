@@ -23,8 +23,9 @@ namespace projects
               PowerOfTwo.PrintTable();
               HarmonicNumber.GetHarmonic();
              Factors.GetPrimeFactors();*/
-           // QuotientAndRemainder.GetQuotientRemainder();
-           EvenOdd.EvenOddCheck();
+            // QuotientAndRemainder.GetQuotientRemainder();
+            // EvenOdd.EvenOddCheck();
+            VowelConsonant.VowelCheck();
             Console.ReadLine();
         }
     }
