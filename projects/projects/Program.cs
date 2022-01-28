@@ -21,7 +21,8 @@ namespace projects
               leapYear.LeapYearCheck();
 
              PowerOfTwo.PrintTable();*/
-            HarmonicNumber.GetHarmonic();
+            // HarmonicNumber.GetHarmonic();
+            Factors.GetPrimeFactors();
             Console.ReadLine();
         }
     }
