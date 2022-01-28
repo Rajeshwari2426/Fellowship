@@ -15,15 +15,11 @@ namespace projects
             int result=1;
             for (int i = 1; i <= n; i++)
             {
-                
-                
+                              
                 result=result*2;
                 Console.WriteLine($"{2} ^ {i} = {result}" );
             }
         }
-       /* for ((i=0;i<=n;i++))
-do
-  echo "2^$i= $((2**i))"
-done*/
+      
     }
 }

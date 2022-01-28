@@ -11,16 +11,17 @@ namespace projects
         static void Main(string[] args)
         {
             /*  FibonocciSeries series = new FibonocciSeries();
-              series.FindFibonocciSeries();
-              ReverseNumbers.FindReverseNumber();
-             Console.ReadLine();
-             SwapNumbers.SwappingNumbers();
-             CoinFlip flipCoin = new CoinFlip();
-             flipCoin.FlipCoin();
-             LeapYear leapYear  = new LeapYear();
-             leapYear.LeapYearCheck();*/
+               series.FindFibonocciSeries();
+               ReverseNumbers.FindReverseNumber();
+              Console.ReadLine();
+              SwapNumbers.SwappingNumbers();
+              CoinFlip flipCoin = new CoinFlip();
+              flipCoin.FlipCoin();
+              LeapYear leapYear  = new LeapYear();
+              leapYear.LeapYearCheck();
 
-            PowerOfTwo.PrintTable();
+             PowerOfTwo.PrintTable();*/
+            HarmonicNumber.GetHarmonic();
             Console.ReadLine();
         }
     }
