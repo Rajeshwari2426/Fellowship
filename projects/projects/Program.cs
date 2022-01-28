@@ -15,6 +15,8 @@ namespace projects
             // ReverseNumbers.FindReverseNumber();
             //Console.ReadLine();
             SwapNumbers.SwappingNumbers();
+            CoinFlip flipCoin = new CoinFlip();
+            flipCoin.FlipCoin();
             Console.ReadLine();
         }
     }
