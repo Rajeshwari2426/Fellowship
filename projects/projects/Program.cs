@@ -25,7 +25,9 @@ namespace projects
              Factors.GetPrimeFactors();*/
             // QuotientAndRemainder.GetQuotientRemainder();
             // EvenOdd.EvenOddCheck();
-            VowelConsonant.VowelCheck();
+          //  VowelConsonant.VowelCheck();
+          LargestNumber largest=new LargestNumber();
+            largest.GetLargest();
             Console.ReadLine();
         }
     }
