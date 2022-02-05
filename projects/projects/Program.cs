@@ -43,9 +43,12 @@ namespace projects
              largest.GetLargest();
              //finding perfect number
              PerfectNumber perfectnum = new PerfectNumber();
-             perfectnum.Perfect();*/
+             perfectnum.Perfect();
+            //find prime number
             PrimeNumber primenum = new PrimeNumber();
-            primenum.Prime();
+            primenum.Prime();*/
+            CouponNumbers couponNumbers = new CouponNumbers();
+            couponNumbers.GetCouponNumbers();
 
             Console.ReadLine();
         }
