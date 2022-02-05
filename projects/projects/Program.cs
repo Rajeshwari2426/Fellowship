@@ -46,9 +46,12 @@ namespace projects
              perfectnum.Perfect();
             //find prime number
             PrimeNumber primenum = new PrimeNumber();
-            primenum.Prime();*/
+            primenum.Prime();
+            //generate coupon numbers
             CouponNumbers couponNumbers = new CouponNumbers();
-            couponNumbers.GetCouponNumbers();
+            couponNumbers.GetCouponNumbers();*/
+            //stop watch
+            StopWatch.ElapsedTime();
 
             Console.ReadLine();
         }

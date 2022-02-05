@@ -58,6 +58,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QuotientAndRemainder.cs" />
     <Compile Include="ReverseNumbers.cs" />
+    <Compile Include="StopWatch.cs" />
     <Compile Include="SwapNumbers.cs" />
     <Compile Include="VowelConsonant.cs" />
   </ItemGroup>
