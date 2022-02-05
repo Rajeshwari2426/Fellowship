@@ -51,12 +51,12 @@ namespace projects
             CouponNumbers couponNumbers = new CouponNumbers();
             couponNumbers.GetCouponNumbers();*/
             //stop watch
-           // StopWatch.ElapsedTime();
-           // Console.WriteLine("Enter Amount to get Change");
-           // int amount = Convert.ToInt32(Console.ReadLine());
-            VendingMachine vending = new VendingMachine();
-            vending.Getchange();
+            // StopWatch.ElapsedTime();
 
+            //  VendingMachine vending = new VendingMachine();
+            //vending.Getchange();
+            DayOfWeek weekday = new DayOfWeek();
+            weekday.Day();
             Console.ReadLine();
         }
     }
