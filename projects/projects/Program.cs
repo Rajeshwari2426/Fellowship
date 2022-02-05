@@ -57,10 +57,19 @@ namespace projects
             //vending.Getchange();
             //  DayOfWeek weekday = new DayOfWeek();
             //  weekday.Day();
-            TemperatureConversion temperature = new TemperatureConversion();
+          /*  TemperatureConversion temperature = new TemperatureConversion();
             Console.WriteLine("Enter value of temperature ");
             int temp = Convert.ToInt32(Console.ReadLine());
-            temperature.temperatureconversion(temp);
+            temperature.temperatureconversion(temp);*/
+            //monthly payment
+            MonthlyPayment month = new MonthlyPayment();
+            Console.WriteLine("Enter the value of principal");
+            double P = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Enter the year");
+            double Y = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Enter the rate : ");
+            double R = Convert.ToDouble(Console.ReadLine());
+            month.monthlypayment(P, Y, R);
             Console.ReadLine();
         }
     }
