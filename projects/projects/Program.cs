@@ -71,7 +71,10 @@ namespace projects
              double R = Convert.ToDouble(Console.ReadLine());
              month.monthlypayment(P, Y, R);*/
             //finding square root 
-            SquareRoot.Sqrt();
+            // SquareRoot.Sqrt();
+            //decimal to binary conversion
+            BinaryConversion binary = new BinaryConversion();
+            binary.decimalToBinary();
             Console.ReadLine();
         }
     }

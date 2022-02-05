@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BinaryConversion.cs" />
     <Compile Include="CoinFlip.cs" />
     <Compile Include="CouponNumbers.cs" />
     <Compile Include="DayOfWeek.cs" />
