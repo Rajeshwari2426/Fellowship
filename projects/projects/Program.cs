@@ -55,8 +55,12 @@ namespace projects
 
             //  VendingMachine vending = new VendingMachine();
             //vending.Getchange();
-            DayOfWeek weekday = new DayOfWeek();
-            weekday.Day();
+            //  DayOfWeek weekday = new DayOfWeek();
+            //  weekday.Day();
+            TemperatureConversion temperature = new TemperatureConversion();
+            Console.WriteLine("Enter value of temperature ");
+            int temp = Convert.ToInt32(Console.ReadLine());
+            temperature.temperatureconversion(temp);
             Console.ReadLine();
         }
     }
