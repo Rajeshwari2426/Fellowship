@@ -10,7 +10,7 @@ namespace projects
     {
         static void Main(string[] args)
         {
-            /* //fibonocciseries ........
+            //fibonocciseries ........
                 FibonocciSeries series = new FibonocciSeries();
                 series.FindFibonocciSeries();
 
@@ -49,32 +49,37 @@ namespace projects
             primenum.Prime();
             //generate coupon numbers
             CouponNumbers couponNumbers = new CouponNumbers();
-            couponNumbers.GetCouponNumbers();*/
+            couponNumbers.GetCouponNumbers();
             //stop watch
-            // StopWatch.ElapsedTime();
-
-            //  VendingMachine vending = new VendingMachine();
-            //vending.Getchange();
-            //  DayOfWeek weekday = new DayOfWeek();
-            //  weekday.Day();
-            /*  TemperatureConversion temperature = new TemperatureConversion();
+            StopWatch.ElapsedTime();
+            //fewest notes to be returned for vending machine
+             VendingMachine vending = new VendingMachine();
+            vending.Getchange();
+            //find day of week
+             DayOfWeek weekday = new DayOfWeek();
+             weekday.Day();
+             TemperatureConversion temperature = new TemperatureConversion();
               Console.WriteLine("Enter value of temperature ");
               int temp = Convert.ToInt32(Console.ReadLine());
-              temperature.temperatureconversion(temp);*/
+              temperature.temperatureconversion(temp);
             //monthly payment
-            /* MonthlyPayment month = new MonthlyPayment();
+             MonthlyPayment month = new MonthlyPayment();
              Console.WriteLine("Enter the value of principal");
              double P = Convert.ToDouble(Console.ReadLine());
              Console.WriteLine("Enter the year");
              double Y = Convert.ToDouble(Console.ReadLine());
              Console.WriteLine("Enter the rate : ");
              double R = Convert.ToDouble(Console.ReadLine());
-             month.monthlypayment(P, Y, R);*/
+             month.monthlypayment(P, Y, R);
             //finding square root 
-            // SquareRoot.Sqrt();
+            SquareRoot.Sqrt();
             //decimal to binary conversion
-            BinaryConversion binary = new BinaryConversion();
-            binary.decimalToBinary();
+             BinaryConversion binary = new BinaryConversion();
+              binary.decimalToBinary();
+            SwapNibbles nible = new SwapNibbles();
+            Console.WriteLine("Enter number to convert in Binary :");
+            int number = Convert.ToInt32(Console.ReadLine());
+            nible.ToBinary(number);
             Console.ReadLine();
         }
     }

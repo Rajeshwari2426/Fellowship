@@ -63,6 +63,7 @@
     <Compile Include="ReverseNumbers.cs" />
     <Compile Include="SquareRoot.cs" />
     <Compile Include="StopWatch.cs" />
+    <Compile Include="SwapNibbles.cs" />
     <Compile Include="SwapNumbers.cs" />
     <Compile Include="TemperatureConversion.cs" />
     <Compile Include="VendingMachine.cs" />
